@@ -9,7 +9,7 @@ function play(question,answer){
 score++;
   }else{
     console.log("U are wrong");
-score=0    
+score;  
   }
   
  console.log( "current score is :" +score)
