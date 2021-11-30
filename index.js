@@ -4,12 +4,12 @@ console.log("Welcome! " + userName+"Do you know Prajwal?")
 var score =0;
 function play(question,answer){
   var game=readlineSync.question(question);
-  if(game == answer){
+  if(game === answer){
     console.log("U are right");
 score++;
   }else{
     console.log("U are wrong");
-score;  
+  
   }
   
  console.log( "current score is :" +score)
